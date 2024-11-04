@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe>
+      <emit>
+        <CNPJ>12345678000199</CNPJ>
+        <xNome>Distribuidora Alimentos Sul LTDA</xNome>
+        <email>vendas@distribuidorasul.com.br</email>
+      </emit>
+      <dest>
+        <xNome>Supermercado Bom Preço</xNome>
+      </dest>
+      <det>
+        <prod>
+          <xProd>Arroz Integral 1kg</xProd>
+          <qCom>50</qCom>
+          <vUnCom>8.90</vUnCom>
+        </prod>
+      </det>
+      <det>
+        <prod>
+          <xProd>Feijão Preto 1kg</xProd>
+          <qCom>30</qCom>
+          <vUnCom>7.50</vUnCom>
+        </prod>
+      </det>
+      <det>
+        <prod>
+          <xProd>Óleo de Soja 900ml</xProd>
+          <qCom>40</qCom>
+          <vUnCom>9.90</vUnCom>
+        </prod>
+      </det>
+      <total>
+        <ICMSTot>
+          <vNF>892.50</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>
